@@ -1,0 +1,61 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+nav {
+
+  background-color: rgba(27, 4, 33, 0.99);
+}
+
+main h1 {
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
+
+#cards {
+  font-family: 'Questrial', sans-serif;
+  padding: 0px 0px 30px 0px;
+}
+
+footer {
+  font-family: 'Questrial', sans-serif;
+  background-color: white;
+  position: relative;
+  padding: 20px 10px 10px 10px;
+}
+
+#parallax:nth-of-type(2){
+  height: 200px;
+}
+#parallax {
+  background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e3b92161cef01773ab8e0f83d4da1126&auto=format&fit=crop&w=1350&q=80");
+  
+  height: 600px;
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#hf {
+  background-color: rgba(27, 4, 33, 1);
+}
+
+.text-box {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: rgba(0, 0, 0, 0.83);
+  color: white;
+  
+  margin: 0 auto;
+  position: relative;
+  top: 240px;
+  width: ;
+
+  padding: 40px 0px 30px 0px;
+}
